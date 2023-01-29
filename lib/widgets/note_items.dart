@@ -18,15 +18,15 @@ class NoteItems extends StatelessWidget {
         children: [
           ListTile(
             title:const  Text("Flutter tips",style: TextStyle(color: Colors.black,fontSize: 26,),),
-            subtitle: Padding(
-              padding: const EdgeInsets.only(top:16.0),
-              child: const Text("build your career",style: TextStyle(color: Colors.black38,fontSize: 20),),
+            subtitle:const  Padding(
+              padding:  EdgeInsets.only(top:16.0),
+              child:  Text("build your career",style: TextStyle(color: Colors.black38,fontSize: 20),),
             )
             ,trailing: IconButton(icon:const Icon(Icons.delete,color: Colors.black,size: 30,) ,onPressed: (){},),
           ),
-          Padding(
-            padding: const EdgeInsets.only(right: 15.0),
-            child: const Text("May21,2022",style: TextStyle(color: Colors.black38,fontSize: 16
+          const Padding(
+            padding:  EdgeInsets.only(right: 15.0),
+            child:  Text("May21,2022",style: TextStyle(color: Colors.black38,fontSize: 16
 
             ),),
           )
